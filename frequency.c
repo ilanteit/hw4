@@ -157,11 +157,9 @@ int main(int argc,char *argv[] )
 
     char* str =(char *)malloc(sizeof(char));
     if (argc==1){
-        printf("Defult \n");
         printDefult(head, str, 0);
 }
-    else if(argv[1][0]=='r'){
-        printf("Reverse \n");
+    else if(argv[1][0]=='r'){    
      	printReverse(head, str, 0);
 
 }
