@@ -61,7 +61,7 @@ void lowerCase (char* word){
 void printDefult ( node *parentNode, char *str, int level) {
     if (parentNode->endWord==TRUE) {
         str[level] = '\0';
-        printf("%s%ld\n", str, parentNode->count);
+        printf("%s %ld\n", str, parentNode->count);
 
     }
     for (int i = 0; i < NUM_LETTERS; i++) {
@@ -84,7 +84,7 @@ void printReverse( node *parentNode, char *str, int level) {
     }
    if (parentNode->endWord==TRUE) {
         str[level] = '\0';
-        printf("%s%ld\n", str, parentNode->count);
+        printf("%s %ld\n", str, parentNode->count);
 
     }
 
